@@ -33,7 +33,6 @@ hue_switch_control_group.js: HuE - Control a group of lights with a Switch
 This script can be used to control a group of lights (on/off) connetcted to a  HuE Bridge.
 
 
-
 hue_button_control_light.js: HuE - Control a light with a push button
 ===
 This script can be used to control a light (on/off) connetcted to a  HuE Bridge.
@@ -43,3 +42,8 @@ hue_button_control_group.js: HuE - Control a group of lights with a push button
 ===
 This script can be used to control a group of lights (on/off) connetcted to a  HuE Bridge.
 
+
+cover_wind_checker.js: - Check the wind periodically and opens the outdoor blind if need.
+===
+The srcipt periodically check the wind speed from weatherapi.com and opens the outloor blids 
+when the wind or gust is greather than a threshold.
