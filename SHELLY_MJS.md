@@ -47,3 +47,10 @@ cover_wind_checker.js: - Check the wind periodically and opens the outdoor blind
 ===
 The srcipt periodically check the wind speed from weatherapi.com and opens the outloor blids 
 when the wind or gust is greather than a threshold.
+
+
+detached_switch_delay_off_timer.js: - Contsols house facade/sidewalk lamp which previously equipped with alternate switches
+===
+Switching on is works immediately when the position of the switch is changed.
+(Regardless of open or close state!) If the switch position is changed when the lamp is on the predefined delay off is started.
+In case the switch position is changed again, the lamp immediately switch off.
